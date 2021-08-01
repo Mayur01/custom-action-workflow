@@ -1,0 +1,8 @@
+name: custom
+on: [push]
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps: 
+      - uses: actions/checkout@v2
+      - uses: Mayur01/custom-action@main
